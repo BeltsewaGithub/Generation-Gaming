@@ -1,0 +1,87 @@
+html {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 24pt;
+}
+
+.button {
+    background-color: rgba(255, 0, 0, 0.384);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: grey;
+    font-size: 24pt;
+    border: none;
+}
+
+body {
+    margin: 0%;
+}
+
+#header {
+    background-color: rgba(233, 198, 170, 0.829);
+    display: flex;
+    height: 30%;
+}
+
+#logo img {
+    width: 200px;
+    height: 200px;
+    margin: auto;
+}
+
+#user img{
+    width: 50px;
+    height: 50px;
+}
+
+.item-card {
+    display:flexbox;
+    flex-direction: column;
+    /*width: 300px;
+    height: 300px;*/
+}
+
+.basket img {
+    width: 30px;
+    height: 30px;
+}
+
+#catalog-popular {
+    display: flex;
+    background-color: rgba(185, 177, 221, 0.829);
+}
+
+.item-pic img {
+    width: 200px;
+    height: 200px;
+}
+
+.item-card {
+    display: flex;
+    background-color: beige;
+}
+
+.right-container .ref {
+    margin-right: 20px;
+}
+
+.right-container {
+    display: inline-flex;
+    position: absolute;
+    right: 20%;
+}
+
+.sign-in {
+    position: relative;
+    margin: auto;
+}
+
+.basket {
+    position: relative;
+    margin: auto;
+}
+
+.search-field {
+    display: inline;
+    margin: 5%;
+    position: relative;
+    right: 5%;
+}

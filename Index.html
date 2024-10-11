@@ -3,30 +3,63 @@
 <head>
     <meta charset="UTF-8" />
     <title>Generation Gaming</title>
+    <link rel="stylesheet" href="styles.css" type="text/css" />
 </head>
 <body>
-    <div class="header">
-        <div class="logo">
-            <img src="logo.png" alt="Generation Gaming">
+    <div id="wrapper">
+        <div id="header">
+            
+            <div id="logo">
+                <img src="source/logo.png" alt="Generation Gaming">
+            </div>
+    
+            <div class="search-field">
+                <form action="" target="">
+                    <input type="text" name="search">
+                    <button class="button">Поиск</button>
+                </form>
+            </div>
+            
+            <div class="right-container">
+                <div id="references">
+                    <a class="ref" href="other-pages/Catalog.HTML">Каталог</a>
+                    <a class="ref" href="">Чат-бот</a> <!-- TODO: создать пустой чат-бот -->
+                    <a class="ref" href="t.me/GenerationGaming24">Наш тгк</a> <!-- TODO: сделать рабочую ссылку на тгк -->
+                </div>
+        
+                <div class="sign-in">
+                    <form action="other-pages/SignUp.HTML" target="_blank">
+                        <button class="button">Войти</button>
+                    </form>
+                </div>
+                
+                <div class="basket">
+                    <form action="other-pages/Basket.HTML" target="_blank">
+                        <button class="button"><img src="source/shopping-cart.png" alt="Корзина"></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    
+        <div id="catalog-popular">
+            <div class="item-card">
+                <div class="item-pic">
+                    <img src="source/cs2 prime acc.jpg" alt="prime-акканут cs2">
+                </div>
+                <div id="user">
+                    <img src="source/user-icon.png" alt="Ник продавца">
+                </div>
+                
+                <a class="ref" href="other-pages/ItemCard.HTML">Аккаунт CS2</a>
+                <div>Описание товара</div>
+                <form> <!-- для добавления в корзину -->
+                    <button class="button">Купить</button>
+                </form>
+            </div>
         </div>
 
-        <div class="search-field">
-            <form action="#">
-                <input type="text" name="search">
-                <input type="submit" value="Поиск">
-            </form>
-        </div>
-
-        <div class="contacts">
-            <a href="Catalog.HTML">Каталог</a>
-            <a href="">Чат-бот</a> <!-- TODO: создать пустой чат-бот -->
-            <a href="t.me/GenerationGaming24">Наш тгк</a> <!-- TODO: сделать рабочую ссылку на тгк -->
-        </div>
-
-        <div class="sign-up">
-            <form action="SignUp.HTML" target="_blank">
-                <button>Войти</button>
-            </form>
+        <div id="footer">
+            
         </div>
     </div>
 </body>
