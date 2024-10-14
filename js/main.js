@@ -93,7 +93,7 @@ items.forEach ( (item, idx) => {
                         
         <div class="user">
           <img src="source/user-icon.png" alt="Ник продавца">
-          <a>${item.salerName}</a>
+          <a class="user">${item.salerName}</a>
         </div>
       </div>
     </div>
