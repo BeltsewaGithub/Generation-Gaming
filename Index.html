@@ -1,9 +1,19 @@
 <!DOCTYPE html>
 <html>
+    <p id="test"></p>
 <head>
     <meta charset="UTF-8" />
     <title>Generation Gaming</title>
     <link rel="stylesheet" href="styles.css" type="text/css" />
+    <!-- <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script> -->
+    <script type="importmap">
+        {
+          "imports": {
+            "vue": "https://unpkg.com/vue@3/dist/vue.esm-browser.js"
+          }
+        }
+      </script>
+    <script type="module" src="js/main.js"></script>
 </head>
 <body>
     <div id="wrapper">
@@ -24,10 +34,10 @@
                 <div id="references">
                     <a class="ref" href="other-pages/Catalog.HTML">Каталог</a>
                     <a class="ref" href="">Чат-бот</a> <!-- TODO: создать пустой чат-бот -->
-                    <a class="ref" href="t.me/GenerationGaming24">Наш тгк</a> <!-- TODO: сделать рабочую ссылку на тгк -->
+                    <a class="ref" href="https://t.me/GenerationGaming24">Наш тгк</a> <!-- TODO: сделать рабочую ссылку на тгк -->
                 </div>
         
-                <div class="sign-in">
+                <div class="sign-in" id="sign-in-button">
                     <form action="other-pages/SignUp.HTML" target="_blank">
                         <button class="button">Войти</button>
                     </form>
@@ -35,27 +45,13 @@
                 
                 <div class="basket">
                     <form action="other-pages/Basket.HTML" target="_blank">
-                        <button class="button"><img src="source/shopping-cart.png" alt="Корзина"></button>
+                        <button id="basketButton"><img src="source/shopping-cart.png" alt="Корзина"></button>
                     </form>
                 </div>
             </div>
         </div>
     
         <div id="catalog-popular">
-            <div class="item-card">
-                <div class="item-pic">
-                    <img src="source/cs2 prime acc.jpg" alt="prime-акканут cs2">
-                </div>
-                <div id="user">
-                    <img src="source/user-icon.png" alt="Ник продавца">
-                </div>
-                
-                <a class="ref" href="other-pages/ItemCard.HTML">Аккаунт CS2</a>
-                <div>Описание товара</div>
-                <form> <!-- для добавления в корзину -->
-                    <button class="button">Купить</button>
-                </form>
-            </div>
         </div>
 
         <div id="footer">
