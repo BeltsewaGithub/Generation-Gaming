@@ -2,7 +2,7 @@ import { createApp } from 'vue'
 /*import { ref } from 'vue'*/
 
 
-const container = document.getElementById('catalog-popular');
+
 const items = [
   {
       cardLabel: "Prime",
@@ -39,10 +39,39 @@ const items = [
     price: 50000,
     cardLabel: "Аккаунт Донка",
     altImgTxt: "Аккаунт CS2"
+  },
+  {
+    itemName: "Аккаунт CS 1.6",
+    itemInfo: "Описание товара",
+    salerName: "zont1x",
+    itemImage: "source/cs2prime.jpg",
+    price: 500,
+    cardLabel: "Аккаунт Донка",
+    altImgTxt: "Аккаунт CS2"
+  },
+  {
+    itemName: "Аккаунт CS 1.6",
+    itemInfo: "Описание товара",
+    salerName: "zont1x",
+    itemImage: "source/cs2prime.jpg",
+    price: 500,
+    cardLabel: "prime",
+    altImgTxt: "Аккаунт CS2"
+  },
+  {
+    itemName: "Аккаунт CS 1.6",
+    itemInfo: "Описание товара",
+    salerName: "zont1x",
+    itemImage: "source/cs2prime.jpg",
+    price: 500,
+    cardLabel: "-10%",
+    altImgTxt: "Аккаунт CS2"
   }
 
 ]
 
+
+const container = document.getElementById('catalog-popular');
 items.forEach ( (item, idx) => {
   const card = document.createElement('div');
   card.classList = 'item-card';
