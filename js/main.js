@@ -44,7 +44,7 @@ const items = [
     itemName: "Аккаунт CS 1.6",
     itemInfo: "Описание товара",
     salerName: "zont1x",
-    itemImage: "source/cs2prime.jpg",
+    itemImage: "source/cs1.6.webp",
     price: 500,
     cardLabel: "Аккаунт Донка",
     altImgTxt: "Аккаунт CS2"
@@ -53,7 +53,7 @@ const items = [
     itemName: "Аккаунт CS 1.6",
     itemInfo: "Описание товара",
     salerName: "zont1x",
-    itemImage: "source/cs2prime.jpg",
+    itemImage: "source/cs1.6.webp",
     price: 500,
     cardLabel: "prime",
     altImgTxt: "Аккаунт CS2"
@@ -62,10 +62,19 @@ const items = [
     itemName: "Аккаунт CS 1.6",
     itemInfo: "Описание товара",
     salerName: "zont1x",
-    itemImage: "source/cs2prime.jpg",
+    itemImage: "source/cs1.6.webp",
     price: 500,
     cardLabel: "-10%",
     altImgTxt: "Аккаунт CS2"
+  },
+  {
+    itemName: "Аккаунт GTA V",
+    itemInfo: "Описание товара",
+    salerName: "saler",
+    itemImage: "source/gta.webp",
+    price: 299,
+    cardLabel: "ban",
+    altImgTxt: "Аккаунт GTA"
   }
 
 ]
