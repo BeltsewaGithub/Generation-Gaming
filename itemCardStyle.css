@@ -1,0 +1,39 @@
+.item-card {
+    display: flex;
+}
+.price {
+    font-size: 50pt;
+    position: absolute;
+    right: 5%;
+    float: right;
+}
+
+.price::after {
+    content: "₽";
+    margin-left: 4px;
+}
+
+.item-name {
+    
+    float: left;
+    font-size: 50pt;
+}
+
+.item-pic {
+    max-width: 50%;
+    display: block;
+    position: relative;
+}
+.item-pic > img {
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+}
+
+.item-info {
+    margin: 0;
+    margin-left: 10%;
+    display: flex;
+    flex-direction: column;
+    background-color: azure;
+}
