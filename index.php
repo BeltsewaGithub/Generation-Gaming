@@ -15,7 +15,6 @@
         }
       </script>
       <script type="module" src="js/main.js"></script>
-      <!--<script type="module" src="js/catalog.js"></script>-->
     </div>
 </head>
 <body>
