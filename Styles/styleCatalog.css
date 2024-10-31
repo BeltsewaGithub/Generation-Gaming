@@ -1,0 +1,132 @@
+#catalog-popular {
+    column-gap: 8px;
+    display: grid;
+    grid-auto-flow: row dense;
+    grid-template-columns: repeat(5, calc(20% - 5px));
+    row-gap: 24px;
+}
+
+/*_____Карточка товара_____*/
+
+.item-card {
+    display: flex;
+    background-color: rgba(238, 238, 238, 0.685);
+    flex-direction: column;
+    border-radius: 4px;
+    position: relative;
+    transition: 0.2s;
+    box-shadow: 1px 2px 4px rgba(216, 216, 216, 0.829);
+    overflow: hidden;
+    width: auto;
+    padding: 5px;
+}
+
+.item-card:hover {
+    box-shadow: 4px 8px 16px rgba(65, 65, 65, 0.664);
+}
+
+.card-label {
+    padding: 4px 8px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: #ff6633;
+    border-radius: 4px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #fff;
+}
+
+.card-top {
+    flex: 0 0 220px;
+    position: relative;
+    overflow: hidden;
+}
+
+.card-info {
+    display: inline-flex;
+    width: 100%;
+}
+
+.price {
+    margin-left: 10%;
+    color: #535353;
+}
+
+.price::after {
+    content: "₽";
+    margin-left: 4px;
+}
+
+.item-info {
+    color: #535353;
+    font-size: 12pt;
+}
+
+.card-add {
+    background-color: rgba(255, 0, 0, 0.384);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: grey;
+    font-size: 18pt;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid rgba(255, 0, 0, 0.781);
+    border-radius: 4px;
+    cursor: pointer; /* Меняем курсор при наведении */
+    transition: 0.2s;
+    margin-top: auto; /* Прижимаем кнопку к низу карточки */
+}
+
+.card-add:hover {
+    /*transform: scale(1.1);*/
+    color: black;
+}
+
+.item-card .ref:hover {
+    color: brown;
+}
+
+.item-pic {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.item-pic > img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    transition: 0.2s;
+}
+
+.item-pic:hover > img {
+    transform: scale(1.1);
+}
+
+.item-card:hover {
+    box-shadow: 4px 8px 16px rgba(116, 115, 115, 0.829);
+}
+
+.user {
+    display: flex;
+    font-size: 15pt;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: grey;
+    text-decoration: none;
+    align-items: center;
+}
+.user img {
+    margin-right: 5%;
+    width: 30px;
+    height: 30px;
+<<<<<<< Updated upstream:styles.css
+}
+=======
+}
+
+>>>>>>> Stashed changes:Styles/styleCatalog.css

@@ -24,8 +24,14 @@ const headerContent = `
 
 <nav>
   <ul class="references">
+<<<<<<< Updated upstream
     <li><a class="ref" href="other-pages/Catalog.HTML">Каталог</a></li>
     <li><a class="ref" href="">Чат-бот</a></li><!-- TODO: создать пустой чат-бот -->
+=======
+    <li><a class="ref createItem" href="CreateItem.php">+</a></li>
+    <li><a class="ref" href="">Каталог</a></li>
+    <li><a class="ref" href="">Чат-бот</a></li>
+>>>>>>> Stashed changes
     <li><a class="ref" href="https://t.me/GenerationGaming24">Наш тгк</a></li>
   </ul>
 </nav>

@@ -1,0 +1,62 @@
+* {
+    font-size:  12pt !important;
+    
+}
+
+input {
+    height: auto !important;
+}
+
+.title {
+    font-size: 30pt !important;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.create-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.left-container {
+    width: 50%;
+    height: auto;
+    float: left;
+}
+
+.left-container > * {
+    margin-bottom: 20px;
+}
+
+.right-container {
+    width: 30%;
+    height: auto;
+    float: right;
+    margin-left: 30px;
+}
+
+.input-label-category-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.item-info-input{
+    width: 50%;
+}
+
+.send-button {
+    background-color: rgba(255, 0, 0, 0.384);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: grey;
+    font-size: 18pt;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid rgba(255, 0, 0, 0.781);
+    border-radius: 4px;
+    cursor: pointer; /* Меняем курсор при наведении */
+    transition: 0.2s;
+    margin-top: auto; /* Прижимаем кнопку к низу карточки */
+}

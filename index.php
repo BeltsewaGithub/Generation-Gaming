@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html>
-    <p id="test"></p>
 <head>
     <title>Generation Gaming</title>   
     <meta charset="UTF-8" />
  
     <div id="imports">
-      <link rel="stylesheet" href="styles.css" type="text/css" />
+      <link rel="stylesheet" href="./Styles/styleCatalog.css" type="text/css" />
+      <script type="module" src="scripts/main.js"></script>
       <script type="importmap">
         {
           "imports": {
@@ -14,26 +14,32 @@
           }
         }
       </script>
-      <script type="module" src="js/main.js"></script>
+      
     </div>
 </head>
 <body>
-    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" 
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     
     <div id="wrapper">
 
-        <div id="header"></div>
+        <div id="header">
+          
+        </div>
 
 
         <div id="catalog-popular">
           <?php
 
-          $dbUser="root";
-          $dbPass= "7359";
-          $dbName= "generation-gaming";
-          $mysqli = mysqli_connect('localhost', $dbUser, $dbPass, $dbName);
+          //$dbUser="root";
+          //$dbPass= "7359";
+          //$dbName= "generation-gaming";
+          //$mysqli = mysqli_connect('localhost', $dbUser, $dbPass, $dbName);
+          $dbUser="gb_gaming_sal";
+          $dbPass= "E4zPr-9LB7ZP";
+          $dbName= "gb_gaming_sal";
+          $mysqli = mysqli_connect('mysql104.1gb.ru', $dbUser, $dbPass, $dbName);
+          
           $query = "set names utf8";
           $mysqli -> query($query);
           $query = "select * from items";
@@ -44,17 +50,27 @@
             $itemName = $row["ItemName"];
             $itemPrice = $row["ItemPrice"];
             $itemLabel = $row["ItemLabelText"];
-            $itemImage = $row["ItemPicturePath"];
+            $itemImage = $row["ItemPicture"];
             $itemInfo = $row["ItemDescription"];
             $sellerName = $row["ItemSellerNickname"];
             $idx = $row["idItems"];
+
+            
             $content = "
             <div class='item-card'>
               <div class='card-top' id='heading-${idx}'>
                 <div class='item-pic'>
                   <img src=${itemImage} alt=${itemName}></img>
                 </div>
-                <div class='card-label'>${itemLabel}</div>
+                ";
+                echo $content;
+                
+              
+                if ($itemLabel != "-") {
+                  echo "<div class='card-label'>${itemLabel}</div>";
+                }
+              $content = "
+                
               </div>
               <div class='collapse show' id='collapse-${idx}' aria-labelledby='heading-${idx}' data-parent='#catalog-popular'>
                 <div class='card-bottom'>

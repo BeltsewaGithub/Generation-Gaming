@@ -1,4 +1,3 @@
 {
-    "liveServer.settings.port": 5501,
-    "php.completion.autoimport-docblock": "auto-import"
+    "liveServer.settings.port": 5501
 }
