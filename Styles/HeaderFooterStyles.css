@@ -1,6 +1,6 @@
 html * {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 18pt;
+    font-size: 14pt;
 }
 
 input {
@@ -17,7 +17,7 @@ input {
     background-color: rgba(255, 0, 0, 0.384);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: grey;
-    font-size: 18pt;
+    font-size: 14pt;
     border: 1px solid rgba(255, 0, 0, 0.781);
     border-radius: 4px;
     height: auto;
@@ -39,7 +39,6 @@ input {
 .createItem {
     padding: 0;
     margin: 0;
-    font-size: 40pt;
 }
 
 body {
@@ -96,7 +95,7 @@ ul.references {
     position: relative;
     float: right;
     justify-content: end;
-    width: 50%;
+    width: 70%;
 }
 
 ul.references a {
@@ -129,7 +128,7 @@ ul.references a {
 
 
 h5 {
-    font-size: 30pt !important;
+    font-size: 20pt !important;
 }
 
 .logo-footer {

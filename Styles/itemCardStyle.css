@@ -1,39 +1,150 @@
-.item-card {
-    display: flex;
+
+*{
+    font-size: 20pt;
 }
-.price {
-    font-size: 50pt;
-    position: absolute;
-    right: 5%;
+
+.back-to-main{
+    margin-left: 4px;
+    font-size: 14pt;
+    align-content: center;
+    margin-left: 10%;
+}
+
+.back-to-main > a{
+    text-decoration: none;
+    color: black;
+    font-size: 14pt;
+}
+
+svg.arrow {
+    margin: 0;
+    padding: 0;
+    float: left;
+    height: 25px;
+    width:25px;
+    margin-right: 10px;
+    position: relative;
+}
+
+
+.item-card {
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    flex-direction: row;
+    
+    padding: 0;
+    position: relative;
+}
+
+
+/*______________LEFT CONTAINER______________*/
+.left-container {
+    float: left;
+    width: 50%;
+}
+
+
+.photo-container {
+    margin-left: 10px;
+    display: block;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+        
+.photo-container > img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    transition: 0.2s;
+}
+        
+.photo-container:hover > img {
+    /*transform: scale(1.1);*/
+}
+
+/*______________RIGHT CONTAINER______________*/
+
+.right-container {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
     float: right;
+    width: 30%;
+    margin-left: 20px;
+}
+
+.right-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 4px;
+    margin-bottom: 30px;
+}
+
+.name {
+}
+
+.price {
 }
 
 .price::after {
-    content: "₽";
+    content: " ₽";
     margin-left: 4px;
 }
 
-.item-name {
-    
-    float: left;
-    font-size: 50pt;
+.seller-info {
+    font-size: 14pt;
 }
 
-.item-pic {
-    max-width: 50%;
+.seller-info > img {
+    margin-right: 4px;
+    width: 30px;
+    height: 30px;
+}
+
+.category {
+    font-size: 14pt;
+}
+
+.description{
+    padding-left: 5%;
+}
+
+.description > p {
+    font-size: 10pt;
+}
+
+#buy-button {
+}
+
+#add-to-cart-button{
+}
+
+.buttons {
+    margin-top: auto;
+}
+
+.button {
+    background-color: rgba(255, 0, 0, 0.384);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: grey;
+    font-size: 18pt;
     display: block;
-    position: relative;
-}
-.item-pic > img {
-    height: 100%;
     width: 100%;
-    object-fit: fill;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid rgba(255, 0, 0, 0.781);
+    border-radius: 4px;
+    cursor: pointer; /* Меняем курсор при наведении */
+    transition: 0.2s;
+    margin-bottom: 4px;
 }
 
-.item-info {
-    margin: 0;
-    margin-left: 10%;
-    display: flex;
-    flex-direction: column;
-    background-color: azure;
+.button:hover {
+    /*transform: scale(1.1);*/
+    color: black;
 }

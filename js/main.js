@@ -1,10 +1,13 @@
+import { createApp } from 'vue'
 const imports = document.getElementById('imports');
   const importContent = `
       <!--бутстрап-->
       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" 
           integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-      <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
-      <link rel="stylesheet" href="./Styles/HeaderFooterStyles.css" type="text/css" />
+      
+          <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+      <link rel="stylesheet" href="Styles/HeaderFooterStyles.css" type="text/css" />
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   `;
   imports.innerHTML += importContent;
 
@@ -27,11 +30,10 @@ const headerContent = `
 
 <nav>
   <ul class="references">
-    <li><a class="ref createItem" href="CreateItem.php">+</a></li>
-    <li><a class="ref" href="./">Каталог</a></li>
-    <li><a class="ref" href="">Чат-бот</a></li><!-- TODO: создать пустой чат-бот -->
+    <li><a class="ref" href="#">Создать товар</a></li>
+    <li><a class="ref" href="#">Каталог</a></li>
+    <li><a class="ref" href="#">Чат-бот</a></li>
     <li><a class="ref" href="https://t.me/GenerationGaming24">Наш тгк</a></li>
-    <li><a class="ref" href="./">Главная</a></li>
   </ul>
 </nav>
         
@@ -78,6 +80,8 @@ const footerContent = `
    </ul>
 </div>
 </footer>
-<li><a class="ref" href="https://t.me/GenerationGaming24">Наш тгк</a></li><p class="text-center text-body-secondary">© 2024 Generation Gaming. Все права защищены</p>
+<p class="text-center text-body-secondary">© 2024 Generation Gaming. Все права защищены</p>
 `;
 footer.innerHTML += footerContent;
+
+
