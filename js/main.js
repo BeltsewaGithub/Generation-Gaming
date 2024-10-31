@@ -1,4 +1,3 @@
-import { createApp } from 'vue'
 const imports = document.getElementById('imports');
   const importContent = `
       <!--бутстрап-->
