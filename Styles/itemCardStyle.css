@@ -3,6 +3,11 @@
     font-size: 20pt;
 }
 
+#wrapper {
+    padding: 25px;
+    background-color: rgba(24, 24, 24, 0.836);
+}
+
 .back-to-main{
     margin-left: 4px;
     font-size: 14pt;

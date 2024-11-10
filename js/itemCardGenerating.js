@@ -91,7 +91,7 @@ const items = [
       <div id="collapse-${idx}" class="collapse show" aria-labelledby="heading-${idx}" data-parent="#catalog-popular">
         <div class="card-bottom">
           <div class="card-info">
-            <a class="ref" href="other-pages/ItemCard.HTML">${item.itemName}</a>
+            <a class="ref" href="./ItemCard.php">${item.itemName}</a>
             <div class="price">${item.price}</div>
           </div>
                           
