@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
 
     <div id="imports">
-        <link rel="stylesheet" href="Styles/createItemStyle.css" type="text/css" />
+        <link rel="stylesheet" href="Styles/createItem.css" type="text/css" />
         
         <script type="importmap">
             {
@@ -25,7 +25,7 @@
     
     <div id="header"></div>
     <div id="wrapper">
-    <div class="title">СОЗДАТЬ ТОВАР</div>
+    <div class="title"><h1>СОЗДАТЬ ТОВАР</h1></div>
     
     <div class="create-item">
       <form action="scripts/create.php" method="POST" enctype="multipart/form-data">
@@ -44,12 +44,12 @@
                 <input name="ItemLabel" type="text" class="form-control" placeholder="Примечание">
                 
                 <div class="select-category">
-                  <label for="category">Выберите категорию товара</label>
+                  <label for="category"><p>Выберите категорию товара</p></label>
                     <select id="category" name="ItemCategory" onchange="setTextField(this)">
-                      <option value="CS2">CS2</option>
-                      <option value="DOTA2">DOTA2</option>
-                      <option value="GTA">GTA</option>
-                      <option value="Other">Other</option>
+                      <option value="CS2"><p>CS2</p></option>
+                      <option value="DOTA2"><p>DOTA2</p></option>
+                      <option value="GTA"><p>GTA</p></option>
+                      <option value="Other"><p>Other</p></option>
                     </select>
                 </div>
                 <input id="make_text" type = "hidden" name = "make_text" value = "" />

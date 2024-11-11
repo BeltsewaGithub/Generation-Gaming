@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
 
     <div id="imports">
-        <link rel="stylesheet" href="./Styles/itemCardStyle.css" type="text/css" />
+        <link rel="stylesheet" href="./Styles/itemCard.css" type="text/css" />
         <script type="importmap">
             {
               "imports": {

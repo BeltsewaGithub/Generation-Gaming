@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+    
+}
+
+body {
+    background-image: url(../source/arena.jpg);
+    background-size: 100%;
+    backdrop-filter: blur(5px);
+}
+
+button {
+    background-color: rgba(255, 0, 0, 0.384);
+    color: grey;
+    display: block;
+    width: 100%;
+    padding: 5px;
+    text-align: center;
+    border: 1px solid rgba(255, 0, 0, 0.781);
+    border-radius: 4px;
+    cursor: pointer; /* Меняем курсор при наведении */
+    transition: 0.2s;
+    margin-top: auto;
+    align-items: center;
+}
+
+button:hover {
+    /*transform: scale(1.1);*/
+    color: black;
+}

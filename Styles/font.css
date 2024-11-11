@@ -1,0 +1,30 @@
+* {
+    font-family: "Montserrat Alternates", sans-serif !important;
+    color: white !important;
+}
+
+p {
+    font-size: 13pt;
+}
+
+h1 {
+    font-size: 40pt;
+}
+
+
+h5 {
+    font-size: 20pt !important;
+}
+
+.text-body-secondary {
+    color: white !important;
+}
+
+a {
+    font-size: 13pt;
+	text-decoration: none !important;
+}
+
+a:visited {
+    color: black;
+}

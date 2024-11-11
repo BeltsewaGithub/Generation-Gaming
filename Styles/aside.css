@@ -12,6 +12,28 @@
     float: left;
 }
 
+.checkbox-label-container {
+    float: left;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    justify-content: left;
+}
+
+.checkbox-label-container > label {
+    margin-left: 10px;
+}
+
+.checkbox-label-container > input {
+    height: 20px !important;
+    width: 20px !important;
+    position: relative;
+    top: 1.6px;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+}
+
 .dropdown-content {
     display: none;
     position: relative;
@@ -37,25 +59,6 @@
     padding: 0;
 }
 
-.dropdown-content a {
-    color: black;
-    text-decoration: none;
-    padding: 12px 16px;
-    display: block;
-}
-
-.dropdown-content a:hover{
-    color: #ffffff;
-}
-
 .categories:hover .dropdown-content, .filters:hover .dropdown-content{
     display: block;
-}
-
-.drop-menu-button {
-    background-color: black;
-    color: rgb(255, 255, 255);
-    font-size: 16px;
-    border: none;
-    margin-bottom: 20px;
 }

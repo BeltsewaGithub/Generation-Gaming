@@ -5,9 +5,9 @@
     <meta charset="UTF-8" />
  
     <div id="imports">
-      <link rel="stylesheet" href="Styles/styleCatalog.css" type="text/css" />
+      <link rel="stylesheet" href="Styles/catalog.css" type="text/css" />
       
-      <link rel="stylesheet" href="Styles/asideIndex.css" type="text/css" />
+      <link rel="stylesheet" href="Styles/aside.css" type="text/css" />
       <script type="importmap">
         {
           "imports": {
@@ -29,37 +29,41 @@
 
         <div class="sidebar">
           <div class="filters">
-              <button class="drop-menu-button">Фильтр</button>
+              <button class="drop-menu-button"><h5>Фильтр</h5></button>
               <div class="dropdown-content">
-                  <a href="#">По возрастанию цены</a>
-                  <a href="#">По убыванию цены</a>
+                  <a href="#"><p>По возрастанию цены</p></a>
+                  <a href="#"><p>По убыванию цены</p></a>
               </div>
           </div>
           
           <div class="categories">
-            <button class="drop-menu-button">Категория</button>
+            <button class="drop-menu-button"><h5>Категория</h5></button>
               <div class="dropdown-content">
-                  <a href="#">CS2</a>
-                  <a href="#">DOTA2</a>
-                  <a href="#">Assasin'a Creed</a>
-                  <a href="#">GTA</a>
-                  <a href="#">CS 1.6</a>
-                  <a href="#">FINALS</a>
-                  <a href="#">VALORANT</a>
+                  <a href="#"><p>CS2</p></a>
+                  <a href="#"><p>DOTA2</p></a>
+                  <a href="#"><p>Assasin'a Creed</p></a>
+                  <a href="#"><p>GTA</p></a>
+                  <a href="#"><p>CS 1.6</p></a>
+                  <a href="#"><p>FINALS</p></a>
+                  <a href="#"><p>VALORANT</p></a>
               </div>
           </div>
           <div class="price-sort">
-            <button class="drop-menu-button">Цена</button>
+            <button class="drop-menu-button"><h5>Цена</h5></button>
             <div class="dropdown-content">
               <input type="number" min="0" class="min-price" placeholder="min">
               <input type="number" min="0" class="max-price" placeholder="max">
             </div>
           </div>
           <div class="properties-sort">
-              <input type="checkbox" name="commercial">
-              <!--<label for "commercial">CS2</label>-->
-              <input type="checkbox" name="news-portals">
-              <label for "news-portals">DOTA2</label>
+            <div class="checkbox-label-container">
+              <input type="checkbox" name="levelAccount">
+              <label for "levelAccount"><p>Аккаунт с уровнем</p></label>
+            </div>
+            <div class="checkbox-label-container">
+              <input type="checkbox" name="zeroAccount">
+              <label for "zeroAccount"><p>Нулевой аккаунт</p></label>
+              </div>
           </div>
         </div>
 

@@ -1,5 +1,7 @@
 const imports = document.getElementById('imports');
   const importContent = `
+      <link rel="icon" href="./source/favicon.ico" type="image/x-icon">
+      <link rel="stylesheet" href="Styles/font.css" type="text/css" />
       <!--Google Font-->
       <link rel="preconnect" href="https://fonts.googleapis.com">
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -11,8 +13,8 @@ const imports = document.getElementById('imports');
           integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
       
           <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
-      <link rel="stylesheet" href="Styles/HeaderFooterStyles.css" type="text/css" />
-      <link rel="stylesheet" href="Styles/style.css" type="text/css" />
+      <link rel="stylesheet" href="Styles/headerFooter.css" type="text/css" />
+      <link rel="stylesheet" href="Styles/background.css" type="text/css" />
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   `;
   imports.innerHTML += importContent;
@@ -28,7 +30,7 @@ const headerContent = `
 <div class="search-field">
   <form action="" target="">
     <input type="search" name="search">
-      <button class="button">Поиск</button>
+      <button class="button"><p>Поиск</p></button>
   </form>
 </div>
             
@@ -36,16 +38,16 @@ const headerContent = `
 
 <nav>
   <ul class="references">
-    <li><a class="ref" href="CreateItem.php">Создать товар</a></li>
-    <li><a class="ref" href="Catalog.html">Каталог</a></li>
-    <li><a class="ref" href="#">Чат-бот</a></li>
-    <li><a class="ref" href="https://t.me/GenerationGaming24">Наш тгк</a></li>
+    <li><a class="ref" href="CreateItem.php"><p>Создать товар</p></a></li>
+    <li><a class="ref" href="Catalog.html"><p>Каталог</p></a></li>
+    <li><a class="ref" href="#"><p>Чат-бот</p></a></li>
+    <li><a class="ref" href="https://t.me/GenerationGaming24"><p>Наш тгк</p></a></li>
   </ul>
 </nav>
         
 <div class="sign-in">
   <form action="other-pages/SignUp.HTML" target="_blank">
-    <button class="button" class="sign-in-button">Войти</button>
+    <button class="button" class="sign-in-button"><p>Войти<p></button>
   </form>
 </div>
                 
