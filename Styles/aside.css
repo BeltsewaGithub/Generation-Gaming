@@ -62,3 +62,7 @@
 .categories:hover .dropdown-content, .filters:hover .dropdown-content{
     display: block;
 }
+
+.drop-menu-button {
+    margin-bottom: 40px;
+}

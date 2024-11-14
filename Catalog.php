@@ -49,11 +49,9 @@
               </div>
           </div>
           <div class="price-sort">
-            <button class="drop-menu-button"><h5>Цена</h5></button>
-            <div class="dropdown-content">
+            <h5>Цена</h5>
               <input type="number" min="0" class="min-price" placeholder="min">
               <input type="number" min="0" class="max-price" placeholder="max">
-            </div>
           </div>
           <div class="properties-sort">
             <div class="checkbox-label-container">

@@ -2,6 +2,9 @@ const imports = document.getElementById('imports');
   const importContent = `
       <link rel="icon" href="./source/favicon.ico" type="image/x-icon">
       <link rel="stylesheet" href="Styles/font.css" type="text/css" />
+      <link rel="stylesheet" href="Styles/headerFooter.css" type="text/css" />
+      <link rel="stylesheet" href="Styles/background.css" type="text/css" />
+      
       <!--Google Font-->
       <link rel="preconnect" href="https://fonts.googleapis.com">
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,9 +15,7 @@ const imports = document.getElementById('imports');
       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" 
           integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
       
-          <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
-      <link rel="stylesheet" href="Styles/headerFooter.css" type="text/css" />
-      <link rel="stylesheet" href="Styles/background.css" type="text/css" />
+      <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   `;
   imports.innerHTML += importContent;
@@ -38,24 +39,24 @@ const headerContent = `
 
 <nav>
   <ul class="references">
-    <li><a class="ref" href="CreateItem.php">Создать товар</a></li>
-    <li><a class="ref" href="Catalog.html">Каталог</a></li>
+    <!--<li><a class="ref" href="CreateItem.php">Создать товар</a></li>-->
+    <li><a class="ref" href="Catalog.php">Каталог</a></li>
     <li><a class="ref" href="#">Чат-бот</a></li>
     <li><a class="ref" href="https://t.me/GenerationGaming24">Наш тгк</a></li>
   </ul>
 </nav>
         
 <div class="sign-in">
-  <form action="other-pages/SignUp.HTML" target="_blank">
-    <button class="button" class="sign-in-button">Войти</button>
+  <form action="SignIn.php" target="_blank">
+    <button class="button" class="sign-in-button" onclick="location.href='SignIn.php'">Войти</button>
   </form>
 </div>
                 
-<div class="basket">
+<!--<div class="basket">
   <form action="other-pages/Basket.HTML" target="_blank">
     <button id="basketButton"><img src="source/shopping-cart.png" alt="Корзина"></button>
   </form>
-</div>
+</div>-->
 
 </div>
  `;
@@ -73,18 +74,18 @@ const footerContent = `
 <div class="col mb-3">
   <h5>Аккаунты для игр</h5>
     <ul class="nav flex-column">
-      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">CS2</a></li>
-       <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">DOTA2</a></li>
-      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Dead By Daylight</a></li>
-      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Assasin's Creed</a></li>
-      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">GTA</a></li>
+      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary"><p>CS2</p></a></li>
+       <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary"><p>DOTA2</p></a></li>
+      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary"><p>Dead By Daylight</p></a></li>
+      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary"><p>Assasin's Creed</p></a></li>
+      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary"><p>GTA</p></a></li>
     </ul>
 </div>
         
 <div class="col mb-3">
   <h5>Контакты</h5>
     <ul class="nav flex-column">
-      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Telegram</a></li>
+      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary"><p>Telegram</p></a></li>
    </ul>
 </div>
 </footer>

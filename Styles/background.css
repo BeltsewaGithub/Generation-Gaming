@@ -20,8 +20,9 @@ button {
     border-radius: 4px;
     cursor: pointer; /* Меняем курсор при наведении */
     transition: 0.2s;
-    margin-top: auto;
+    margin-top: auto !important;
     align-items: center;
+    text-align: center;
     justify-content: center;
 }
 
@@ -31,7 +32,4 @@ button:hover {
 
 nav {
     align-content: center;
-}
-
-input {
 }

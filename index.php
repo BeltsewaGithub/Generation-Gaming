@@ -14,8 +14,6 @@
         }
       </script>
       <script type="module" src="js/main.js"></script>
-      
-      
     </div>
 </head>
 <body>
@@ -51,7 +49,7 @@
             <div class="sim-slider-dots"></div>
           </div>
           <div class="hltv">
-            <h1>Следи за киберспортом с HLTV</h1>
+            <h2>Следи за киберспортом с HLTV</h2>
           </div>
           <div class="element" >
             <iframe id="HLTV"

@@ -3,9 +3,11 @@
   position: relative;
 }
 
-.hltv *{
-  text-align: center;
+.hltv {
+  
   background-color: rgba(0, 0, 0, 0.692);
+  text-align: center;
+  margin-bottom: 30px;
 }
 
 .rankingPage {

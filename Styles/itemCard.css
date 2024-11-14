@@ -62,7 +62,7 @@ svg.arrow {
     flex-direction: column;
     margin: 0;
     float: right;
-    width: 30%;
+    width: 50%;
     margin-left: 20px;
 }
 
@@ -81,8 +81,8 @@ svg.arrow {
 }
 
 .price::after {
-    content: " ₽";
-    margin-left: 4px;
+    /*content: " ₽";*/
+    margin-right: 4px;
 }
 
 .seller-info > img {
@@ -99,3 +99,7 @@ svg.arrow {
     margin-top: auto;
 }
 
+#buy-button {
+    width: 100%;
+    
+}
