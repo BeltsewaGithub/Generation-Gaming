@@ -29,8 +29,8 @@ const headerContent = `
     
 <div class="search-field">
   <form action="" target="">
-    <input type="search" name="search">
-      <button class="button"><p>Поиск</p></button>
+    <input type="search" name="search" placeholder="Аккаунт...">
+      <button class="searchButton">Поиск</button>
   </form>
 </div>
             
@@ -38,16 +38,16 @@ const headerContent = `
 
 <nav>
   <ul class="references">
-    <li><a class="ref" href="CreateItem.php"><p>Создать товар</p></a></li>
-    <li><a class="ref" href="Catalog.html"><p>Каталог</p></a></li>
-    <li><a class="ref" href="#"><p>Чат-бот</p></a></li>
-    <li><a class="ref" href="https://t.me/GenerationGaming24"><p>Наш тгк</p></a></li>
+    <li><a class="ref" href="CreateItem.php">Создать товар</a></li>
+    <li><a class="ref" href="Catalog.html">Каталог</a></li>
+    <li><a class="ref" href="#">Чат-бот</a></li>
+    <li><a class="ref" href="https://t.me/GenerationGaming24">Наш тгк</a></li>
   </ul>
 </nav>
         
 <div class="sign-in">
   <form action="other-pages/SignUp.HTML" target="_blank">
-    <button class="button" class="sign-in-button"><p>Войти<p></button>
+    <button class="button" class="sign-in-button">Войти</button>
   </form>
 </div>
                 

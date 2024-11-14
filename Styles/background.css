@@ -13,8 +13,8 @@ button {
     background-color: rgba(255, 0, 0, 0.384);
     color: grey;
     display: block;
-    width: 100%;
-    padding: 5px;
+    width: auto;
+    padding: 10px;
     text-align: center;
     border: 1px solid rgba(255, 0, 0, 0.781);
     border-radius: 4px;
@@ -22,9 +22,16 @@ button {
     transition: 0.2s;
     margin-top: auto;
     align-items: center;
+    justify-content: center;
 }
 
 button:hover {
-    /*transform: scale(1.1);*/
     color: black;
+}
+
+nav {
+    align-content: center;
+}
+
+input {
 }

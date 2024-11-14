@@ -4,27 +4,35 @@
 }
 
 p {
-    font-size: 13pt;
+    font-size: 15pt;
 }
 
 h1 {
     font-size: 40pt;
 }
 
-
 h5 {
     font-size: 20pt !important;
 }
 
-.text-body-secondary {
+.text-body-secondary a{
     color: white !important;
 }
 
 a {
-    font-size: 13pt;
+    color:  white !important;
+    font-size: 15pt;
 	text-decoration: none !important;
 }
 
-a:visited {
-    color: black;
+button {
+    font-size: 15pt !important;
+}
+
+nav-link p-0 text-body-secondary {
+    color: white !important;
+}
+
+.text-body-secondary > *{
+    color:  white !important;
 }

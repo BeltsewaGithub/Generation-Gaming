@@ -1,11 +1,6 @@
 #footer, #header {
 }
 
-input {
-    height: 30px;
-    width: 300px;
-}
-
 #Wrapper {
     display: flex;
     flex-wrap: wrap;
@@ -43,9 +38,18 @@ body {
     height: 100%;
 }
 
+.searchButton {
+    margin-left: 20px;
+}
+
 .search-field {
     width: 40%;
+}
+
+.search-field > form {
+    
     display: flex;
+    flex-direction: row;
     margin: 5%;
     position: relative;
     right: 5%;
@@ -79,22 +83,19 @@ ul.references a {
     width: 70%;
 }
 
-
-.sign-in-button {
-    position: relative;
-    margin: 0;
-}
-
-#basketButton {
-    background-color: rgba(255, 255, 255, 0);
-    border: none;
-    margin: 0;
+.header-right-container > *{
+    align-items: center;
 }
 
 .basket img {
+    margin: 0;
     width: 30px;
-    height: 30px;
     filter: invert(1);
+}
+
+.basketButton {
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
 }
 
 /*____footer____*/
