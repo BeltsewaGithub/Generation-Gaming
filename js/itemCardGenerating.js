@@ -91,18 +91,18 @@ const items = [
       <div id="collapse-${idx}" class="collapse show" aria-labelledby="heading-${idx}" data-parent="#catalog-popular">
         <div class="card-bottom">
           <div class="card-info">
-            <a class="ref" href="./ItemCard.php">${item.itemName}</a>
+            <a class="ref" href="./ItemCard.html">${item.itemName}</a>
             <div class="price">${item.price}</div>
           </div>
                           
           <div class="user">
-            <img src="source/user-icon.png" alt="Ник продавца">
+            <img class="user-icon" src="source/user-icon.png" alt="Ник продавца">
             <a class="user">${item.salerName}</a>
           </div>
         </div>
       </div>
       <div class="item-info">${item.itemInfo}</div>
-      <button class="card-add">Купить</button>
+      <button class="card-add" onclick="location.href='Order.html'">Купить</button>
     </div>
     `;
   

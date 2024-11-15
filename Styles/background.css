@@ -17,13 +17,14 @@ button {
     padding: 10px;
     text-align: center;
     border: 1px solid rgba(255, 0, 0, 0.781);
-    border-radius: 4px;
     cursor: pointer; /* Меняем курсор при наведении */
     transition: 0.2s;
     margin-top: auto !important;
     align-items: center;
     text-align: center;
     justify-content: center;
+    border-radius: 16px;
+    transition: 0.2s;
 }
 
 button:hover {
@@ -33,3 +34,23 @@ button:hover {
 nav {
     align-content: center;
 }
+
+input {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-top: 10px;
+    padding: 16px 24px;
+    background: #FFFFFF;
+    border: 2px solid #1B1B1B;
+    box-sizing: border-box;
+    border-radius: 16px;
+    transition: 0.2s;
+  }
+
+  .user-icon {
+    filter: invert(1);
+    margin-right: 4px;
+    width: 30px;
+    height: 30px;
+  }

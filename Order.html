@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>Generation Gaming</title>   
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="Styles/order.css" type="text/css" />
+    <link rel="stylesheet" href="Styles/font.css" type="text/css" />
+    <link rel="stylesheet" href="Styles/background.css" type="text/css" />
+    </head>
+    
+    <body>
+        <div class="order">
+            <div class="back-to-main">
+                <a href="./">
+                <svg class="arrow" version="1.1" viewBox="0 0 512 512" width="512px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><polygon points="352,115.4 331.3,96 160,256 331.3,416 352,396.7 201.5,256 " stroke="#727272"/></svg>
+                Вернуться на главную
+                </a>
+            </div>
+            
+            <h1>Оформление покупки</h1>
+            <div class="main">
+            <div class="main-container">
+                <div class="left-container">
+                    <p>[Наименование]</p>
+                    <br>
+                    <label for="contacts" id="description-label">Введите контактные данные, по которым мы сможем с вами свзяаться (telegram, vk, email и другое)</label>
+                    <input type="text" id="contacts" name="contacts" placeholder="t.me/@Ivanov"/>
+                </div>
+
+                <div class="right-container">
+                    <div class="payment-form">
+                        <label for="name">Имя</label>
+                        <input type="text" id="name" name="name" placeholder="Иванов Иван"/>
+                        
+                        <br>
+                        <label for="card">Номер карты</label>
+                        <input type="text" minlength="16" maxlength="16" id="card" name="card" placeholder="0000 0000 0000 0000"/>
+                        
+                        <br>
+                        <div class="exp-cvc">
+                            <div class="expiration">
+                                <label for="expiry" id="expiry-label">Срок дейстивя карты</label>
+                                <input class="inputCard" name="expiry" id="expiry" type="text" required placeholder="00/00"/>
+                                <br>
+                            </div>
+                            <div class="security">
+                                <label for="cvc" id="cvc-label">CVC</label>
+                                <input type="text" minlength="3" maxlength="4" id="cvc" name="cvc" placeholder="XXX" />
+                                <br>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                
+                
+            </div>
+            <div class="button">
+                    <button class="buy-button">Оформить</button>
+            </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

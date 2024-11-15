@@ -44,7 +44,7 @@
 
 .price-sort {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 }
 
 .price-sort * {
@@ -52,7 +52,6 @@
 }
 
 .properties-sort {
-    margin-top: 20px;
     display: flex;
     flex-direction: column;
     margin: 0;

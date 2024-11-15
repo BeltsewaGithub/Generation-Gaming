@@ -74,21 +74,9 @@ svg.arrow {
     margin-bottom: 30px;
 }
 
-.name {
-}
-
-.price {
-}
-
 .price::after {
     /*content: " ₽";*/
     margin-right: 4px;
-}
-
-.seller-info > img {
-    margin-right: 4px;
-    width: 30px;
-    height: 30px;
 }
 
 .description{
@@ -101,5 +89,4 @@ svg.arrow {
 
 #buy-button {
     width: 100%;
-    
 }

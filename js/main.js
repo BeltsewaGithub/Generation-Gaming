@@ -39,16 +39,16 @@ const headerContent = `
 
 <nav>
   <ul class="references">
-    <!--<li><a class="ref" href="CreateItem.php">Создать товар</a></li>-->
-    <li><a class="ref" href="Catalog.php">Каталог</a></li>
+    <!--<li><a class="ref" href="CreateItem.html">Создать товар</a></li>-->
+    <li><a class="ref" href="Catalog.html">Каталог</a></li>
     <li><a class="ref" href="#">Чат-бот</a></li>
     <li><a class="ref" href="https://t.me/GenerationGaming24">Наш тгк</a></li>
   </ul>
 </nav>
         
 <div class="sign-in">
-  <form action="SignIn.php" target="_blank">
-    <button class="button" class="sign-in-button" onclick="location.href='SignIn.php'">Войти</button>
+  <form action="SignIn.html" target="_blank">
+    <button class="button" class="sign-in-button" onclick="location.href='SignIn.html'">Войти</button>
   </form>
 </div>
                 
@@ -89,7 +89,7 @@ const footerContent = `
    </ul>
 </div>
 </footer>
-<p class="text-center text-body-secondary">© 2024 Generation Gaming. Все права защищены</p>
+<p Style="text-align:center">© 2024 Generation Gaming. Все права защищены</p>
 `;
 footer.innerHTML += footerContent;
 
